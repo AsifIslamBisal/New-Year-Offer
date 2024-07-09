@@ -273,7 +273,6 @@ margin-right: 400px;
     .holyday-section-container{
         width: 1320px;
         height: 986.07px;
-        border: 2px solid red;
         margin-top: 100px;
         margin: 0 auto;
         position: relative;
@@ -367,3 +366,44 @@ margin-right: 400px;
         grid-template-columns: repeat(3,1fr);
         gap: 10px;
     }
+    /* footer-container */
+    .footer-container{
+        width: 1300px;
+        height: 500px;
+        background-color: black;
+        margin: 0 auto;
+    }
+ .contacts{
+    display: flex;
+    color: #FFFFFF;
+ }
+ .footer-first-section{
+    display: flex;
+    color: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: bottom 50px; ;
+ }
+ .hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+ .social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    height: 30px;
+ }
